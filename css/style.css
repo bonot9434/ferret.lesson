@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* home/header */
+
+/* home/body */
+.page-header {
+  background-color: bisque;
+  padding: 5%;
+  text-align: center;
+}
+
+.page-title {
+  padding: 5%;
+  text-align: center;
+}
+
+.container {
+  background-position: center;
+  height: 500px;
+}
+
+
