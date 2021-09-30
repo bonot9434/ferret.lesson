@@ -40,13 +40,3 @@ $(".slider").slick({
   infinite: true,
 });
 
-
-
-// $('.slider').slick({
-//   // 自動再生を設定
-//   autoplay:true,
-//   // スライド切り替えの時間を設定
-//   autoplaySpeed: 3000,
-//   // インジケーターを表示
-//   dots:true
-// });
