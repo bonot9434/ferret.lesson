@@ -7,28 +7,61 @@
 /* home/header */
 
 /* home/body */
+
+.top {
+  display: flex;
+}
+
 .page-header {
   background-color: bisque;
   padding: 3%;
   text-align: center;
 }
 
-.page-title {
+.sec1 {
   text-align: center;
 }
 
-.top {
-  display: flex;
+.page-title {
+  text-align: center;
+  padding: 5% 0 5% 0;
+}
+
+.sec2 {
+  padding: 5%;
+}
+
+.sec2 h3 {
+  padding-left: 5%;
+}
+
+.sec2 p {
+  padding-left: 10%;
 }
 
 .top-left {
   width: 50%;
+  line-height: 5vh;
   background-image: lightyellow;
 }
 
-.nav {
+.link {
   display: flex;
-  list-style: none;
+  justify-content: center;
+  text-align: center;
+}
+
+.link a {
+  padding: 5%;
+}
+
+.link_img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: auto;
+  padding: auto;
 }
 
 .container {
@@ -99,6 +132,5 @@
 .slider img {
   width: 100%;
   height: 30vw;
-  /* height: auto;　画像の大きさそのまま */
   object-fit: cover;
 }
